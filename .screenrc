@@ -1,0 +1,22 @@
+# caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
+startup_message off
+altscreen on
+term screen-256color
+
+escape `~                               # Make ` (backtick) the command key (press `~ to type `)
+
+# Make the escape key F1.  You can't do this through the "escape" command so
+# first we set the escape to something absurd like ctrl-6.  We also need to
+# make sure that the keyboard sends  for F1 in the mac terminal settings.
+#escape ^bb                              # set escape to ctrl-b
+bindkey -k k1 command                   # set F1 to be the real command key
+bindkey -k k2 command                   # set F2 to be another command key
+
+vbell off                               # disable visual bell
+termcapinfo xterm* ti@:te@              # fix the scroll bar
+defscrollback 100000                    # large scroll back
+
+# change the hardstatus settings to give an window list at the bottom of the
+# screen, with the time and date and with the current window highlighted
+hardstatus alwayslastline
+hardstatus string '%{= rW}%-Lw%{= KW}%50>%n %t%{= rW}%+Lw%< %{= kG}%-=%D %d %M %Y %c%{-}'
