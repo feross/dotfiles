@@ -1,0 +1,7 @@
+*
+!.bash_profile
+!.gitconfig
+!.gitignore
+!.screen.rc
+!.ssh/config
+!.zshrc
