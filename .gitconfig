@@ -6,4 +6,4 @@
 [color]
 	diff = auto
 [core]
-	editor = vim
+	editor = subl -w
