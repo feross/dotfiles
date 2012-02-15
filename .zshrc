@@ -36,10 +36,16 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 # Set up aliases
+alias s='subl'
+alias ll='ls -lha'
+
+# Set up git aliases
+alias ga='git add'
+alias gc='git commit'
+alias gca='git commit -a'
 alias gst='git status'
 alias gl='git log'
 alias gd='git diff'
-alias ll='ls -lha'
 
 # Set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
