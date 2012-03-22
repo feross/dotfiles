@@ -6,4 +6,6 @@
 [color]
 	diff = auto
 [core]
-	editor = vim 
+	editor = vim
+[push]
+	default = tracking

@@ -43,7 +43,7 @@ alias gca='git commit -a'
 alias gd='git diff'
 alias gl='git log'
 alias gp='git pull && git push'
-alias gst='git status'
+alias gst='git status -s'
 alias ll='ls -lha'
 alias s='subl'
 
