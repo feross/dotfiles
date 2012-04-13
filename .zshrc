@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="lambda"
+ZSH_THEME="feross"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -52,9 +52,11 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-# Set Sublime Text 2 as default editor
+# Set Sublime Text 2 as default editor, when available
 if [ -f "$HOME/bin/subl" ] ; then
     export EDITOR='subl -w'
+else
+    export EDITOR='vim'
 fi
 
 # Load Node Version Manager (nvm) if it exists

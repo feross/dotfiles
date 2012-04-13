@@ -5,3 +5,4 @@
 !.screen.rc
 !.ssh/config
 !.zshrc
+!.oh-my-zsh/custom/*
