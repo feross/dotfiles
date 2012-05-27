@@ -2,10 +2,11 @@
 	autosetuprebase = always
 [user]
 	name = Feross Aboukhadijeh
-	email = feross@gmail.com
+	email = feross@feross.org
 [color]
 	diff = auto
 [core]
 	editor = vim
 [push]
 	default = tracking
+

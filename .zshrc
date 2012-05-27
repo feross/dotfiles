@@ -35,6 +35,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+if [ `cat /etc/hostname` = "future" ] ; then
+    export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+fi
+
 # Set up aliases
 alias g="git"
 alias ga='git add'
