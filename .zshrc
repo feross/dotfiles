@@ -56,6 +56,9 @@ alias s='subl'
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+if [ -d "$HOME/Dropbox/bin" ] ; then
+    PATH="$HOME/Dropbox/bin:$PATH"
+fi
 
 # Set Sublime Text 2 as default editor, when available
 if [ -f "$HOME/bin/subl" ] ; then
