@@ -9,6 +9,5 @@
 	editor = vim
 [push]
 	default = tracking
-
 [credential]
 	helper = osxkeychain
