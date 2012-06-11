@@ -51,6 +51,10 @@ alias gst='git status -s'
 alias ll='ls -lha'
 alias s='subl'
 
+# Stop stupid zsh suggestions -- correct commands but not arguments
+unsetopt correctall
+setopt correct
+
 # Set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
