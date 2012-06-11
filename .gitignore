@@ -1,8 +1,2 @@
+# Ignore everything by default. To track new files, use "git add -f" 
 *
-!.bash_profile
-!.gitconfig
-!.gitignore
-!.screen.rc
-!.ssh/config
-!.zshrc
-!.oh-my-zsh/custom/*
