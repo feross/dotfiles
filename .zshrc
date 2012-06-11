@@ -35,7 +35,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-if [ `cat /etc/hostname` = "future" ] ; then
+# Custom PATHs
+if [[ -f "/etc/hostname" && `cat /etc/hostname` = "future" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
 
@@ -58,6 +59,9 @@ setopt correct
 # Set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
+fi
+if [ -d "$HOME/Dropbox/bin" ] ; then
+    PATH="$HOME/Dropbox/bin:$PATH"
 fi
 
 # Set Sublime Text 2 as default editor, when available
