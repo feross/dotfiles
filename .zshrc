@@ -35,10 +35,13 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-# Custom PATHs
+# Custom PATH for "future" Linode server
 if [[ -f "/etc/hostname" && `cat /etc/hostname` = "future" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
+
+# Python virtualenv should prefer "distribute" to "setuptools"
+export VIRTUALENV_USE_DISTRIBUTE=true
 
 # Set up aliases
 alias g="git"
