@@ -35,8 +35,15 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-# Custom PATH for "future" Linode server
+# Custom PATHs
+
+# Future
 if [[ -f "/etc/hostname" && `cat /etc/hostname` = "future" ]] ; then
+    export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+fi
+
+# Fatty
+if [[ -f "/etc/hostname" && `cat /etc/hostname` = "fatty" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
 
