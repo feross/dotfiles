@@ -44,7 +44,7 @@ fi
 export VIRTUALENV_USE_DISTRIBUTE=true
 
 # Set up aliases
-alias g="git"
+alias g='git'
 alias ga='git add'
 alias gc='git commit'
 alias gca='git commit -a'
@@ -52,8 +52,14 @@ alias gd='git diff'
 alias gl='git log'
 alias gp='git pull && git push'
 alias gst='git status -s'
-alias ll='ls -lha'
+alias l='ls -lha'
 alias s='subl'
+
+# Folder shortcuts
+alias www='cd ~/www'
+alias log='cd ~/www/log'
+alias apache2='cd /etc/apache2/'
+alias nginx='cd /etc/nginx/'
 
 # Stop stupid zsh suggestions -- correct commands but not arguments
 unsetopt correctall
