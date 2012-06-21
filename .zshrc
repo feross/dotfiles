@@ -66,7 +66,7 @@ alias www='cd ~/www'
 alias log='cd ~/www/log'
 alias apache2='cd /etc/apache2/'
 alias nginx='cd /etc/nginx/'
-
+alias link='cd /media/link/'
 # Stop stupid zsh suggestions -- correct commands but not arguments
 unsetopt correctall
 setopt correct
