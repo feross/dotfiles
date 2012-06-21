@@ -1,8 +1,8 @@
-local user='%B%m %{$reset_color%}'
-local pwd='%B%{$fg[blue]%}%~%{$reset_color%}'
-local git='%B$(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
+local user='%B%m %b%{$reset_color%}'
+local pwd='%B%{$fg[blue]%}%~%b%{$reset_color%}'
+local git='%B$(git_prompt_info)$(git_prompt_status)%b%{$reset_color%}'
 
-PROMPT="${user}${pwd}${git} $ %{$reset_color%}"
+PROMPT="${user}${pwd}${git}%B $ %b%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%} "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"

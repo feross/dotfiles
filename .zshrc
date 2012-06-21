@@ -54,12 +54,10 @@ export VIRTUALENV_USE_DISTRIBUTE=true
 alias g='git'
 alias ga='git add'
 alias gc='git commit'
-alias gcm='git commit -m'
-alias gca='git commit -a'
 alias gd='git diff'
 alias gl='git log'
 alias gp='git pull && git push'
-alias gst='git status -s'
+alias gs='git status -s'
 alias l='ls -lha'
 alias s='subl'
 
