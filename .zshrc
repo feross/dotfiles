@@ -1,30 +1,8 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# Set name of the theme to load. Look in ~/.oh-my-zsh/themes/
 ZSH_THEME="feross"
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
-
-# Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
-
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -33,43 +11,22 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
 
-# Custom PATHs
+# Load aliases
+if [ -f "$HOME/.zshrc_aliases" ] ; then
+    . $HOME/.zshrc_aliases
+fi
 
-# Future
+# Set PATH, depending on where we are
 if [[ -f "/etc/hostname" && `cat /etc/hostname` = "future" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
-
-# Fatty
+if [[ -f "/etc/hostname" && `cat /etc/hostname` = "box" ]] ; then
+    export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+fi
 if [[ -f "/etc/hostname" && `cat /etc/hostname` = "fatty" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
-
-# Python virtualenv should prefer "distribute" to "setuptools"
-export VIRTUALENV_USE_DISTRIBUTE=true
-
-# Set up aliases
-alias g='git'
-alias ga='git add'
-alias gc='git commit'
-alias gd='git diff'
-alias gl='git log'
-alias gp='git pull && git push'
-alias gs='git status -s'
-alias l='ls -lha'
-alias s='subl'
-
-# Folder shortcuts
-alias www='cd ~/www'
-alias log='cd ~/www/log'
-alias apache2='cd /etc/apache2/'
-alias nginx='cd /etc/nginx/'
-
-# Stop stupid zsh suggestions -- correct commands but not arguments
-unsetopt correctall
-setopt correct
 
 # Set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -79,15 +36,17 @@ if [ -d "$HOME/Dropbox/bin" ] ; then
     PATH="$HOME/Dropbox/bin:$PATH"
 fi
 
-# Set Sublime Text 2 as default editor, when available
+# Set Sublime Text 2 as default editor, fallback to vim
 if [ -f "$HOME/bin/subl" ] ; then
     export EDITOR='subl -w'
 else
     export EDITOR='vim'
 fi
 
-# Load Node Version Manager (nvm) if it exists
-if [ -f "$HOME/.nvm/nvm.sh" ]; then
-    . $HOME/.nvm/nvm.sh
-fi
+# Prevent stupid zsh suggestions. Only correct commands, not arguments
+unsetopt correctall
+setopt correct
+
+# Python virtualenv should prefer "distribute" to "setuptools"
+export VIRTUALENV_USE_DISTRIBUTE=true
 

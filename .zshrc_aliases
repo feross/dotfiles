@@ -1,0 +1,23 @@
+# General
+alias l='ls -lha'
+alias s='subl'
+
+# Git
+alias g='git'
+alias ga='git add'
+alias gc='git commit'
+alias gd='git diff'
+alias gl='git log'
+alias gp='git pull && git push'
+alias gs='git status -s'
+
+# Server
+alias uu='sudo aptitude update && sudo aptitude upgrade'
+alias ss='sudo service'
+alias apt='sudo aptitude'
+
+# Folder shortcuts
+alias www='cd ~/www'
+alias log='cd ~/www/log'
+alias apache2='cd /etc/apache2/'
+alias nginx='cd /etc/nginx/'
