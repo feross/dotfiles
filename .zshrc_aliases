@@ -3,12 +3,8 @@ alias l='ls -lha'
 alias s='subl'
 
 # Git
-alias g='git'
-alias ga='git add'
-alias gc='git commit'
+# (more aliases in ~/.oh-my-zsh/plugins/git)
 alias gd='git diff'
-alias gl='git log'
-alias gp='git pull && git push'
 alias gs='git status -s'
 
 # Server

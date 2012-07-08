@@ -6,6 +6,6 @@
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
     // "word_wrap": "true",
-	"translate_tabs_to_spaces": true
-    // "ignored_packages": []
+	"translate_tabs_to_spaces": true,
+    "ignored_packages": []
 }
