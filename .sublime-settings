@@ -1,10 +1,10 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_indentation": false,
+	"font_size": 12.0,
 	"hot_exit": false,
 	"indent_to_bracket": true,
 	"remember_open_files": false,
-	"detect_indentation": false,
 	"tab_size": 4,
-	// "theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true
-    // "ignored_packages": []
 }
