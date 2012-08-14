@@ -17,7 +17,7 @@ if [ -f "$HOME/.zshrc_aliases" ] ; then
     . $HOME/.zshrc_aliases
 fi
 
-# Set PATH, depending on where we are
+# Set PATH, depending on which server we're on
 if [[ -f "/etc/hostname" && `cat /etc/hostname` = "future" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
@@ -26,6 +26,11 @@ if [[ -f "/etc/hostname" && `cat /etc/hostname` = "box" ]] ; then
 fi
 if [[ -f "/etc/hostname" && `cat /etc/hostname` = "fatty" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+fi
+
+# Set PATH on Macbook Pro (where no /etc/hostname exists)
+if [[ ! -f "/etc/hostname" ]] ; then
+    export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 fi
 
 # Set PATH so it includes user's private bin if it exists
