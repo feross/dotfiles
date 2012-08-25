@@ -33,16 +33,16 @@ if [[ ! -f "/etc/hostname" ]] ; then
     export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 fi
 
-# Set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
+# Set PATH so it includes user's private bin, if it exists
+if [[ -d "$HOME/bin" ]] ; then
     PATH="$HOME/bin:$PATH"
 fi
-if [ -d "$HOME/Dropbox/bin" ] ; then
+if [[ -d "$HOME/Dropbox/bin" ]] ; then
     PATH="$HOME/Dropbox/bin:$PATH"
 fi
 
 # Set Sublime Text 2 as default editor, fallback to vim
-if [ -f "$HOME/bin/subl" ] ; then
+if [[ -f "$HOME/bin/subl" ]] ; then
     export EDITOR='subl -w'
 else
     export EDITOR='vim'
@@ -55,3 +55,7 @@ setopt correct
 # Python virtualenv should prefer "distribute" to "setuptools"
 export VIRTUALENV_USE_DISTRIBUTE=true
 
+# Initialize rbenv, if it exists
+if which rbenv > /dev/null ; then
+    eval "$(rbenv init -)"
+fi
