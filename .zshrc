@@ -17,14 +17,8 @@ if [ -f "$HOME/.zshrc_aliases" ] ; then
     . $HOME/.zshrc_aliases
 fi
 
-# Set PATH, depending on which server we're on
-if [[ -f "/etc/hostname" && `cat /etc/hostname` = "future" ]] ; then
-    export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-fi
-if [[ -f "/etc/hostname" && `cat /etc/hostname` = "box" ]] ; then
-    export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-fi
-if [[ -f "/etc/hostname" && `cat /etc/hostname` = "fatty" ]] ; then
+# Set PATH on Ubuntu servers (where /etc/hostname exists)
+if [[ -f "/etc/hostname" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
 
