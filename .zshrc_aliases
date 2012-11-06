@@ -26,4 +26,5 @@ if [[ ! -f "/etc/hostname" ]] ; then
   eval "$(hub alias -s)"
 
   alias s='subl'
+  alias mongod='/usr/local/Cellar/mongodb/2.2.0-x86_64/bin/mongod'
 fi
