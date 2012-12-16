@@ -1,0 +1,3 @@
+# Skip rdoc and ri documentation generation
+install: --no-rdoc --no-ri
+update: --no-rdoc --no-ri
