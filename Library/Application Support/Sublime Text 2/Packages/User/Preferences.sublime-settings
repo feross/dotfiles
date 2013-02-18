@@ -2,9 +2,10 @@
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_indentation": false,
 	"font_face": "Source Code Pro",
-	"font_size": 11.0,
+	"font_size": 12.0,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
 	"wide_caret": true,
 	"word_wrap": true
