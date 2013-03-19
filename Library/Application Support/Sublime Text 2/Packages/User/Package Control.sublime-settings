@@ -4,6 +4,7 @@
 	[
 		"CoffeeScript",
 		"DocBlockr",
+		"Git",
 		"Handlebars",
 		"Jade",
 		"nginx",
