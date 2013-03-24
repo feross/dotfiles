@@ -4,6 +4,10 @@
 	"fold_buttons": false,
 	"font_face": "Source Code Pro",
 	"font_size": 12.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
