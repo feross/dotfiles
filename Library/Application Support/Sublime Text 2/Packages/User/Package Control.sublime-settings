@@ -4,6 +4,7 @@
 	[
 		"CoffeeScript",
 		"DocBlockr",
+		"Git",
 		"GitGutter",
 		"Handlebars",
 		"Jade",

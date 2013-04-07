@@ -4,8 +4,11 @@ alias l='ls -lha'
 # Git
 # (more aliases in ~/.oh-my-zsh/plugins/git)
 alias gd='git diff'
+compdef _git gd=git-diff
 alias gs='git status'
+compdef _git gs=git-status
 alias glg='git log'
+compdef _git glg=git-log
 
 # Server-specific shortcuts
 if [[ -f "/etc/hostname" ]] ; then
@@ -23,7 +26,7 @@ fi
 
 # Mac-specific shortcuts
 if [[ ! -f "/etc/hostname" ]] ; then
-  
+
   # Alias `git` to `hub` (https://github.com/defunkt/hub)
   if (( $+commands[hub] )); then
     eval "$(hub alias -s)"
