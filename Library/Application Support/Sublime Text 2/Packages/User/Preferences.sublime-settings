@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_indentation": false,
+	"draw_white_space": "selection",
 	"fold_buttons": false,
 	"font_face": "Source Code Pro",
 	"font_size": 12.0,
