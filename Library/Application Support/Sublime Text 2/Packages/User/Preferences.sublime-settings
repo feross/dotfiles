@@ -4,10 +4,14 @@
 	"draw_white_space": "selection",
 	"fold_buttons": false,
 	"font_face": "Source Code Pro",
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"rulers":
+	[
+		80
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
