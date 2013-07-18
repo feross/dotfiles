@@ -9,6 +9,7 @@ alias gs='git status'
 compdef _git gs=git-status
 alias glg='git log'
 compdef _git glg=git-log
+alias gsl='git stash -u && gl && git stash pop'
 
 # Server-specific shortcuts
 if [[ -f "/etc/hostname" ]] ; then
