@@ -9,9 +9,11 @@
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"Jade",
+		"JSHint",
 		"nginx",
 		"Package Control",
 		"SCSS",
-		"Stylus"
+		"Stylus",
+		"SublimeOnSaveBuild"
 	]
 }
