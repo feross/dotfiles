@@ -2,6 +2,14 @@
 	"installed_packages":
 	[
 		"DocBlockr",
-		"HTML-CSS-JS Prettify"
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"JSHint Gutter",
+		"Markdown Preview",
+		"nginx",
+		"Stylus",
+		"SublimeOnSaveBuild"
 	]
 }
