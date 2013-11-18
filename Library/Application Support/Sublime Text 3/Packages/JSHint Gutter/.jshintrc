@@ -1,0 +1,15 @@
+{
+  // Details: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+  // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+  // Documentation: http://www.jshint.com/docs/
+
+  "asi": true,
+  "browser": true,
+  "devel": true,
+  "expr": true,
+  "laxbreak": true,
+  "node": true,
+  "strict": false
+}
+
+
