@@ -6,6 +6,7 @@
 [core]
 	editor = vim
 	autocrlf = input
+	excludesfile = ~/.gitignore-global
 [push]
 	default = tracking
 [branch]
