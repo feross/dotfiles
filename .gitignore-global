@@ -1,6 +1,7 @@
 node_modules
 tmp
 npm-debug.log
+bundle.js
 
 .DS_Store
 lib-cov
