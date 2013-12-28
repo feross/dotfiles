@@ -1,20 +1,44 @@
+# Node
+
 node_modules
-tmp
 npm-debug.log
+lib-cov
+
+# Node tools
+
+bower_components
 bundle.js
 
-.DS_Store
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-*.sublime-workspace
+# Text editors
+
 *.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+*.vi
+
+# Override bad GitHub for Mac default
+
+!Icon
+
+# Always ignore
+
+.DS_Store
+Thumbs.db
 
 pids
 logs
-results
+tmp
+
+*.dat
+*.diff
+*.err
+*.gz
+*.log
+*.orig
+*.out
+*.pid
+*.rej
+*.sass-cache
+*.seed
+*~
