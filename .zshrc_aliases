@@ -35,6 +35,7 @@ if [[ ! -f "/etc/hostname" ]] ; then
 
   alias s='subl'
   alias c='cd ~/code && cd '
+  alias gh='github'
   alias mongod='/usr/local/Cellar/mongodb/2.4.3-x86_64/bin/mongod'
   alias mongoremote='ssh -L 27017:localhost:27017 -N feross@athena'
   alias redis='redis-server /usr/local/etc/redis.conf'
