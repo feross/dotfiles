@@ -2,6 +2,7 @@
   "asi": true,
   "browser": true,
   "devel": true,
+  "eqnull": true,
   "expr": true,
   "laxbreak": true,
   "node": true,
