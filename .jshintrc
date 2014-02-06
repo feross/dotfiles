@@ -2,9 +2,16 @@
   "asi": true,
   "browser": true,
   "devel": true,
+  "eqeqeq": true,
   "eqnull": true,
   "expr": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": "nofunc",
   "laxbreak": true,
+  "newcap": true,
+  "noarg": true,
   "node": true,
-  "strict": false
+  "strict": false,
+  "undef": true
 }
