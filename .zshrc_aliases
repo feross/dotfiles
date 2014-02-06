@@ -37,9 +37,9 @@ if [[ ! -f "/etc/hostname" ]] ; then
   alias gh='github'
   alias mongod='/usr/local/Cellar/mongodb/2.4.3-x86_64/bin/mongod'
   alias mongoremote='ssh -L 27017:localhost:27017 -N feross@athena'
-  alias patch='npm version patch && git push && npm publish'
-  alias minor='npm version minor && git push && npm publish'
-  alias major='npm version major && git push && npm publish'
+  alias patch='npm version patch && git push --tags && npm publish'
+  alias minor='npm version minor && git push --tags && npm publish'
+  alias major='npm version major && git push --tags && npm publish'
   alias redis='redis-server /usr/local/etc/redis.conf'
   alias s='subl'
 fi
