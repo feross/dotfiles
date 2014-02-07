@@ -8,6 +8,7 @@ lib-cov
 
 bower_components
 bundle.js
+.bundle.js
 
 # Text editors
 
