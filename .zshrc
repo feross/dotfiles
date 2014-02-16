@@ -17,14 +17,15 @@ if [ -f "$HOME/.zshrc_aliases" ] ; then
     . $HOME/.zshrc_aliases
 fi
 
-# Set PATH on Ubuntu servers (where /etc/hostname exists)
+# Ubuntu servers (where /etc/hostname exists)
 if [[ -f "/etc/hostname" ]] ; then
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fi
 
-# Set PATH on Macbook Pro (where no /etc/hostname exists)
+# Macbook Pro (where no /etc/hostname exists)
 if [[ ! -f "/etc/hostname" ]] ; then
     export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+    export CDPATH=".:~:~/code"
 fi
 
 # Set PATH so it includes user's private bin, if it exists
