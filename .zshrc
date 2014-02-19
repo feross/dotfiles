@@ -24,7 +24,7 @@ fi
 
 # Macbook Pro (where no /etc/hostname exists)
 if [[ ! -f "/etc/hostname" ]] ; then
-    export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
     export CDPATH=".:~:~/code"
 fi
 
