@@ -7,7 +7,6 @@
   "expr": true,
   "globals": { "chrome": false },
   "immed": true,
-  "indent": 2,
   "latedef": "nofunc",
   "laxbreak": true,
   "newcap": true,
