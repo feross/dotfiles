@@ -12,6 +12,9 @@
   "newcap": true,
   "noarg": true,
   "node": true,
+  "predef": [
+    "escape"
+  ],
   "strict": false,
   "undef": true
 }
