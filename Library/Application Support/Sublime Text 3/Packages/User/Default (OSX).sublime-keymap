@@ -1,0 +1,4 @@
+[
+  { "keys": ["super+k", "super+r"], "command": "reveal_in_side_bar" },
+  { "keys": ["alt+space"], "command": "insert_snippet", "args": {"contents": " " } }
+]
