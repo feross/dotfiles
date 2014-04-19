@@ -28,10 +28,6 @@ fi
 # Mac-specific shortcuts
 if [[ ! -f "/etc/hostname" ]] ; then
 
-  # Alias `git` to `hub` (https://github.com/defunkt/hub)
-  if (( $+commands[hub] )); then
-    eval "$(hub alias -s)"
-  fi
 
   alias gh='github'
   alias mongod='/usr/local/Cellar/mongodb/2.4.3-x86_64/bin/mongod'
