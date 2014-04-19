@@ -7,8 +7,14 @@
   // Automatically lint on edit (Sublime Text 3 only).
   "lint_on_edit": false,
 
+  // Automatically lint when a file is loaded.
+  "lint_on_load": false,
+
+  // No edit duration before re-linting.
+  "lint_on_edit_timeout": 1,
+
   // Automatically lint when a file is saved.
-  "lint_on_save": true,
+  "lint_on_save": false,
 
   // Highlight problematic regions when selected.
   "highlight_selected_regions": false
