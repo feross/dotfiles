@@ -29,8 +29,8 @@ fi
 if [[ ! -f "/etc/hostname" ]] ; then
 
   # cyberhobo
-  alias git='cyberhobo git'
-  alias npm='cyberhobo npm'
+  # alias git='cyberhobo git'
+  # alias npm='cyberhobo npm'
 
   alias gh='github'
   alias mongod='/usr/local/Cellar/mongodb/2.4.3-x86_64/bin/mongod'
