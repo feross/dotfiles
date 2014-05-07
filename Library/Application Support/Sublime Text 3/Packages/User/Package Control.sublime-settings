@@ -10,6 +10,8 @@
 		"Markdown Preview",
 		"nginx",
 		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-jscs",
 		"Text Pastry"
 	]
 }
