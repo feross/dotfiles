@@ -7,11 +7,9 @@
     "requireLeftStickedOperators": [","],
     "disallowImplicitTypeConversion": ["string"],
     "disallowKeywords": ["with"],
-    "disallowMultipleLineBreaks": true,
     "disallowMixedSpacesAndTabs": true,
     "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
     "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
-    "requireLineFeedAtFileEnd": true,
     "requireSpacesInFunctionExpression": {
         "beforeOpeningCurlyBrace": true,
         "beforeOpeningRoundBrace": true
