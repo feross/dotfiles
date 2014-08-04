@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"DashDoc",
 		"DocBlockr",
 		"Git",
 		"GitGutter",
