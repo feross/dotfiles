@@ -17,7 +17,8 @@
   "noarg": true,
   "node": true,
   "predef": [
-    "escape"
+    "escape",
+    "unescape"
   ],
   "strict": false,
   "undef": true
