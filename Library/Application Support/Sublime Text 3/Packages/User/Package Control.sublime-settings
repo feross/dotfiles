@@ -1,4 +1,9 @@
 {
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"DashDoc",
@@ -10,6 +15,7 @@
 		"JSHint Gutter",
 		"Markdown Preview",
 		"nginx",
+		"Package Control",
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-jscs",
