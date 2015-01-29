@@ -21,6 +21,7 @@
 		"Package Control",
 		"Stylus",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-jscs",
 		"Text Pastry"
 	]
