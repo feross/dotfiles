@@ -17,7 +17,6 @@
   "disallowSpacesInsideParentheses": true,
   "disallowTrailingComma": true,
   "disallowTrailingWhitespace": true,
-  "disallowYodaConditions": true,
   "requireBlocksOnNewline": 1,
   "requireCapitalizedConstructors": true,
   "requireCommaBeforeLineBreak": true,
