@@ -12,6 +12,8 @@
 		"Markdown Preview",
 		"nginx",
 		"Package Control",
-		"Stylus"
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard"
 	]
 }
