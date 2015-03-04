@@ -4,7 +4,6 @@
 	],
 	"installed_packages":
 	[
-		"DashDoc",
 		"DocBlockr",
 		"Git",
 		"GitGutter",
@@ -12,11 +11,7 @@
 		"Jade",
 		"Markdown Preview",
 		"nginx",
-		"npm",
 		"Package Control",
-		"Stylus",
-		"SublimeLinter",
-		"SublimeLinter-contrib-standard",
-		"Text Pastry"
+		"Stylus"
 	]
 }
