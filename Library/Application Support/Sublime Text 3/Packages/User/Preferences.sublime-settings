@@ -1,7 +1,7 @@
 {
 	"binary_file_patterns":
 	[
-		"node_modules/*"
+		"node_modules/*", "dist/*"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"detect_indentation": true,
