@@ -11,8 +11,6 @@
 	default = tracking
 [branch]
 	autosetuprebase = always
-[transfer]
-	fsckobjects = true
 [filter "media"]
 	required = true
 	clean = git media clean %f
