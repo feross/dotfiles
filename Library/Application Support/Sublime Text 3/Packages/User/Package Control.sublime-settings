@@ -5,11 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"DocBlockr",
 		"Git",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
-		"JSX",
 		"Markdown Preview",
 		"nginx",
 		"Package Control",
