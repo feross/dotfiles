@@ -1,17 +1,14 @@
-# WebTorrent
-
-vlc-log.txt
-webtorrent.debug.js
-
 # Node
 
 node_modules
-npm-debug.log
 lib-cov
 
-# Node tools
+# npm
 
-bower_components
+npm-debug.log
+
+# Browserify
+
 bundle.js
 .bundle.js
 
@@ -22,6 +19,11 @@ bundle.js
 *.swo
 *.swp
 *.vi
+
+# WebTorrent
+
+vlc-log.txt
+webtorrent.debug.js
 
 # Override bad GitHub for Mac default
 
