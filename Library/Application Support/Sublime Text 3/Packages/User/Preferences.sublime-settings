@@ -3,7 +3,8 @@
 	[
 		"build/*",
 		"dist/*",
-		"node_modules/*"
+		"node_modules/*",
+		"bundle.js"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"detect_indentation": true,
