@@ -2,6 +2,10 @@
 .*
 */
 
+# Traverse the filesystem un-ignoring and re-ignoring until we get to the nested
+# folder that we are actually trying to unignore. This is the only way I could figure out
+# how to accomplish this. Better ideas, welcome!
+
 !Library/
 Library/*
 
@@ -14,7 +18,12 @@ Library/Application\ Support/Sublime\ Text\ 3/*
 !Library/Application\ Support/Sublime\ Text\ 3/Packages/
 Library/Application\ Support/Sublime\ Text\ 3/Packages/*
 
+# Folders to actually un-ignore:
+
 !Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/JavaScript/
+
+# Re-ignore some final folders:
 
 .DS_Store
 Library/Application\ Support/Sublime\ Text\ 3/Packages/User/oscrypto-ca-bundle.crt
