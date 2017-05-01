@@ -15,3 +15,7 @@ Library/Application\ Support/Sublime\ Text\ 3/*
 Library/Application\ Support/Sublime\ Text\ 3/Packages/*
 
 !Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+.DS_Store
+Library/Application\ Support/Sublime\ Text\ 3/Packages/User/oscrypto-ca-bundle.crt
+Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.*
