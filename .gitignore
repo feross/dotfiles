@@ -1,2 +1,17 @@
-# Ignore everything by default. To track new files, use "git add -f" 
-*
+# Ignore everything by default. To track new files, use "git add -f"
+.*
+*/
+
+!Library/
+Library/*
+
+!Library/Application\ Support/
+Library/Application\ Support/*
+
+!Library/Application\ Support/Sublime\ Text\ 3/
+Library/Application\ Support/Sublime\ Text\ 3/*
+
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/
+Library/Application\ Support/Sublime\ Text\ 3/Packages/*
+
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
