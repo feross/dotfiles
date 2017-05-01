@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[var $1 = require('$1')]]></content>
+    <content><![CDATA[const $1 = require('$1')]]></content>
     <tabTrigger>req</tabTrigger>
     <scope>source.js</scope>
     <description>CommonJS Require</description>
