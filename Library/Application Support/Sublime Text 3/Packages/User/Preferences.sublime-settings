@@ -6,6 +6,7 @@
 		"node_modules/*",
 		"bundle.js"
 	],
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"detect_indentation": true,
 	"draw_white_space": "selection",
