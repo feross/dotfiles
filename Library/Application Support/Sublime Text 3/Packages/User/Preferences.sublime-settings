@@ -4,6 +4,7 @@
 		"build/*",
 		"dist/*",
 		"node_modules/*",
+		"tmp/*",
 		"bundle.js"
 	],
 	"bold_folder_labels": false,
