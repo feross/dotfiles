@@ -1,6 +1,6 @@
 # Ignore everything by default. To track new files, use "git add -f"
 .*
-*/
+*
 
 # Traverse the filesystem un-ignoring and re-ignoring until we get to the nested
 # folder that we are actually trying to unignore. This is the only way I could figure out
