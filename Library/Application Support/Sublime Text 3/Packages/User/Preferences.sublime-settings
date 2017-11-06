@@ -31,6 +31,13 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fold_buttons": false,
 	"font_face": "SourceCodePro-Regular",
+	"folder_exclude_patterns": [
+		".esm-cache",
+		".git",
+		".hg",
+		".svn",
+		"CVS"
+	],
 	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
