@@ -16,7 +16,7 @@ else
   echo "run-remote - run remote command on all my servers"
   echo ""
   echo "Usage:"
-  echo "    run-remote <command to run>"
+  echo "    run-remote <command>"
   echo ""
   echo "Examples:"
   echo "    run-remote ls"
