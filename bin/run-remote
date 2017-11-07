@@ -1,0 +1,24 @@
+#!/bin/zsh
+
+hosts=('box' 'future' 'athena' 'gimli' 'webtorrent')
+
+GREEN='\033[0;32m'
+NC='\033[0m' # no color
+
+if [ -n "$1" ]
+then
+  for host in $hosts
+  do
+    echo "${GREEN}$host:${NC} $@"
+    ssh $host -t zsh -ci \"$@\"
+  done
+else
+  echo "run-remote - run remote command on all my servers"
+  echo ""
+  echo "Usage:"
+  echo "    run-remote <command to run>"
+  echo ""
+  echo "Examples:"
+  echo "    run-remote ls"
+  echo "    run-remote 'cat /etc/hostname'"
+fi
