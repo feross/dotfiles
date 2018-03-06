@@ -21,7 +21,9 @@ Library/Application\ Support/Sublime\ Text\ 3/Packages/*
 # Folders to actually un-ignore:
 
 !Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*
 !Library/Application\ Support/Sublime\ Text\ 3/Packages/JavaScript/
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/JavaScript/*
 
 # Re-ignore some final folders:
 
