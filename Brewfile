@@ -11,18 +11,8 @@
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
-# Latest git
-brew "git"
-
-# GNU Scientific Library (feross.org)
-brew "gsl"
-
-# GitHub CLI
-brew "hub"
-
-# Latest Ruby and rbenv (feross.org)
-brew "rbenv"
-brew "ruby"
-
-# Latest Python (python3)
-brew "python"
+brew "git" # Latest Git
+brew "gsl" # GNU Scientific Library (used by feross.org)
+brew "hub" # GitHub CLI
+brew "python" # Latest Python (used by SPC hackathon project)
+brew "ruby" # Latest Ruby (used by feross.org)
