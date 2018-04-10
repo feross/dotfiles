@@ -23,3 +23,6 @@ brew "hub"
 # Latest Ruby and rbenv (feross.org)
 brew "rbenv"
 brew "ruby"
+
+# Latest Python (python3)
+brew "python"
