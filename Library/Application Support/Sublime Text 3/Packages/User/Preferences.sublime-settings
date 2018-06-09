@@ -24,6 +24,7 @@
 		"out/*",
 		"package-lock.json",
 		"tmp/*",
+		"upload/*",
 		"vendor/*"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
