@@ -11,8 +11,12 @@
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
-brew "git" # Latest Git
-brew "gsl" # GNU Scientific Library (used by feross.org)
+# Updated system tools
+brew "git"
+brew "python" # Used by SPC hackathon project
+brew "ruby" # Used by Jekyll on feross.org
+
+# Extra dependencies
+brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
 brew "hub" # GitHub CLI
-brew "python" # Latest Python (used by SPC hackathon project)
-brew "ruby" # Latest Ruby (used by feross.org)
+brew "emscripten" # Used by bitmidi.com
