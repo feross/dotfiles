@@ -11,13 +11,22 @@
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
-# Updated system tools
+#
+# Updated built-in system tools
+#
+
 brew "git"
 brew "ruby" # Used by Jekyll on feross.org
 
-# Extra dependencies
-brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
-brew "hub" # GitHub CLI
+#
+# Extra tools
+#
 
-brew "cmake" # Needed by emscripten
-brew "emscripten" # Emscripten (Used by timidity and bitmidi.com)
+brew "hub" # GitHub CLI
+brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
+
+brew "cmake" # Cmake (Used by emscripten)
+brew "emscripten" # Emscripten (Used by timidity on bitmidi.com)
+
+tap "homebrew/cask"
+cask "sauce-connect" # Sauce Connect (Used by airtap)
