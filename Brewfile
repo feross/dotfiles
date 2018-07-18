@@ -13,7 +13,6 @@
 
 # Updated system tools
 brew "git"
-brew "python" # Used by SPC hackathon project
 brew "ruby" # Used by Jekyll on feross.org
 
 # Extra dependencies
@@ -21,4 +20,4 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
 brew "hub" # GitHub CLI
 
 brew "cmake" # Needed by emscripten
-brew "emscripten" # Used by bitmidi.com
+brew "emscripten" # Emscripten (Used by timidity and bitmidi.com)
