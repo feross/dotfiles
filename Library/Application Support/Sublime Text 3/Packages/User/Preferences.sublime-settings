@@ -49,6 +49,7 @@
 		"Vintage"
 	],
 	"index_workers": 1,
+	"line_numbers": false,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
