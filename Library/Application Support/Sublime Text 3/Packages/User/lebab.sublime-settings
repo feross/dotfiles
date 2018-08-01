@@ -1,0 +1,17 @@
+{
+  "transforms": [
+    "arrow",
+    "for-each",
+    "arg-rest",
+    "arg-spread",
+    "obj-method",
+    "obj-shorthand",
+    "exponent",
+    "multi-var",
+    "let",
+    "class",
+    "template",
+    "default-param",
+    "includes"
+  ]
+}
