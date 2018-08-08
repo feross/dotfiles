@@ -15,6 +15,7 @@
 		"*.tga",
 		"*.ttf",
 		"*.zip",
+		"_site/*",
 		"build/*",
 		"bundle.css",
 		"bundle.js",
