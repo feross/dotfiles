@@ -1,22 +1,8 @@
 #!/bin/zsh
 
-# warn if 'browserify' is missing
-if [[ ! -f "/usr/local/bin/browserify" ]]
-then
-  echo "warning: 'browserify' is missing (run 'npm install -g browserify')"
-  exit 1
-fi
-
-# warn if 'minify' is missing
-if [[ ! -f "/usr/local/bin/minify" ]]
-then
-  echo "warning: 'minify' is missing (run 'npm install -g babel-minify')"
-  exit 1
-fi
-
 if [ -n "$1" ]
 then
-  browserify -r "$1" | minify | gzip | wc -c
+  npx browserify -r "$1" | npx babel-minify | gzip | wc -c
 else
   echo "bs - get the browserify size (minified+gzipped) of a local module"
   echo ""
