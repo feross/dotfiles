@@ -24,7 +24,6 @@
 		"node_modules/*",
 		"out/*",
 		"package-lock.json",
-		"tmp/*",
 		"uploads/*",
 		"vendor/*"
 	],
@@ -33,14 +32,6 @@
 	"enable_tab_scrolling": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fold_buttons": false,
-	"folder_exclude_patterns":
-	[
-		".esm-cache",
-		".git",
-		".hg",
-		".svn",
-		"CVS"
-	],
 	"font_face": "SourceCodePro-Regular",
 	"font_size": 12.0,
 	"highlight_line": true,
