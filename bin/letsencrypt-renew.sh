@@ -1,10 +1,9 @@
 #!/bin/bash
-# Renew certificates automatically before they expire. Let's Encrypt
-# certificates last for 90 days, so this command should run more
-# frequently than that (say, daily).
+# Renew TLS certs automatically before they expire. Let's Encrypt certs
+# last for 90 days. Run this command more frequently than that (e.g. daily)
 
-sudo service nginx stop
-sudo service apache2 stop
-sudo letsencrypt renew --agree-tos
-sudo service nginx start
-sudo service apache2 start
+sudo systemctl stop nginx
+sudo systemctl stop apache2
+sudo certbot renew --agree-tos
+sudo systemctl start nginx
+sudo systemctl start apache2
