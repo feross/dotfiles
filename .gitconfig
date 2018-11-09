@@ -26,3 +26,5 @@
 	smudge = git-lfs smudge -- %f
 [receive]
 	fsckObjects = true
+[protocol]
+	version = 2
