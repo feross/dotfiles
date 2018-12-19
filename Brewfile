@@ -22,6 +22,7 @@ brew "ruby" # Used by Jekyll on feross.org
 # Extra tools
 #
 
+brew "wget" # GNU Wget
 brew "hub" # GitHub CLI
 brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
 
