@@ -15,8 +15,9 @@
 # Updated built-in system tools
 #
 
-brew "git"
-brew "ruby" # Used by Jekyll on feross.org
+brew "git" # Latest Git (for security updates)
+brew "ruby" # Latest Ruby (Used by Jekyll on feross.org)
+brew "python" # Python 3
 
 #
 # Extra tools
