@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-hosts=('box' 'future' 'athena' 'gimli' 'webtorrent')
+hosts=('future' 'athena' 'gimli' 'webtorrent')
 
 GREEN='\033[0;32m'
 NC='\033[0m' # no color
