@@ -30,5 +30,7 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
 brew "cmake" # Cmake (Used by emscripten)
 brew "emscripten" # Emscripten (Used by timidity on bitmidi.com)
 
+brew "protobuf" # For CS190
+
 tap "homebrew/cask"
 cask "sauce-connect" # Sauce Connect (Used by airtap)
