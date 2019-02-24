@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rsync -a -O -v --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@future:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/future
-rsync -a -O -v --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@athena:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/athena
-rsync -a -O -v --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@gimli:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/gimli
-rsync -a -O -v --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@webtorrent:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/webtorrent
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@future:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/future
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@athena:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/athena
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@gimli:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/gimli
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@webtorrent:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/webtorrent
