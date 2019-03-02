@@ -18,6 +18,7 @@
 brew "git" # Latest Git (for security updates)
 brew "ruby" # Latest Ruby (Used by Jekyll on feross.org)
 brew "python" # Python 3
+brew "pipenv" # Node-style local modules for Python
 
 #
 # Extra tools
