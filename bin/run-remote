@@ -1,4 +1,5 @@
 #!/bin/zsh
+set -Eeuo pipefail
 
 hosts=('future' 'athena' 'gimli' 'webtorrent')
 

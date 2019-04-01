@@ -1,4 +1,5 @@
 #!/bin/sh
+set -Eeuo pipefail
 
 rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@future:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/future
 rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@athena:"/home/feross/" /Volumes/Time\ Machine\ 4TB/Linode/athena
