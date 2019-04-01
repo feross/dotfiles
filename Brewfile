@@ -15,9 +15,9 @@
 # Updated built-in system tools
 #
 
-brew "git" # Latest Git (for security updates)
+brew "git" # Latest Git (For security updates)
 brew "ruby" # Latest Ruby (Used by Jekyll on feross.org)
-brew "python" # Python 3
+brew "python" # Latest Python
 brew "pipenv" # Node-style local modules for Python
 
 #
@@ -30,8 +30,6 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
 
 brew "cmake" # Cmake (Used by emscripten)
 brew "emscripten" # Emscripten (Used by timidity on bitmidi.com)
-
-brew "protobuf" # For CS190
 
 tap "homebrew/cask"
 cask "sauce-connect" # Sauce Connect (Used by airtap)
