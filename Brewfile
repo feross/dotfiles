@@ -27,6 +27,7 @@ brew "pipenv" # Node-style local modules for Python
 brew "wget" # GNU Wget
 brew "hub" # GitHub CLI
 brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
+brew "fd" # Better "find"
 
 brew "cmake" # Cmake (Used by emscripten)
 brew "emscripten" # Emscripten (Used by timidity on bitmidi.com)
