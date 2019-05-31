@@ -32,5 +32,7 @@ brew "fd" # Better "find"
 brew "cmake" # Cmake (Used by emscripten)
 brew "emscripten" # Emscripten (Used by timidity on bitmidi.com)
 
+brew "youtube-dl" # YouTube downloader
+
 tap "homebrew/cask"
 cask "sauce-connect" # Sauce Connect (Used by airtap)
