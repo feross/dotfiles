@@ -21,18 +21,29 @@ brew "python" # Latest Python
 brew "pipenv" # Node-style local modules for Python
 
 #
-# Extra tools
+# Useful command line tools
 #
 
 brew "wget" # GNU Wget
 brew "hub" # GitHub CLI
-brew "gsl" # GNU Scientific Library (Used by Jekyll on feross.org)
 brew "fd" # Better "find"
-
-brew "cmake" # Cmake (Used by emscripten)
-brew "emscripten" # Emscripten (Used by timidity on bitmidi.com)
-
 brew "youtube-dl" # YouTube downloader
 
+#
+# Project dependencies
+#
+
+# feross.org
+
+brew "gsl" # GNU Scientific Library (Used by Jekyll)
+
+# bitmidi.com
+
+brew "cmake" # Cmake (Used by emscripten)
+brew "emscripten" # Emscripten (Used by timidity)
+brew "graphicsmagick" # GraphicsMagick
+
+# airtap
+
 tap "homebrew/cask"
-cask "sauce-connect" # Sauce Connect (Used by airtap)
+cask "sauce-connect" # Sauce Connect
