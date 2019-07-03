@@ -11,6 +11,9 @@
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
+# Enable casks
+tap "homebrew/cask"
+
 #
 # Updated built-in system tools
 #
@@ -28,6 +31,8 @@ brew "wget" # GNU Wget
 brew "hub" # GitHub CLI
 brew "fd" # Better "find"
 brew "youtube-dl" # YouTube downloader
+brew "siege" # HTTP load testing and benchmarking utility
+cask "ngrok" # Secure tunnels to localhost
 
 #
 # Project dependencies
@@ -45,5 +50,4 @@ brew "graphicsmagick" # GraphicsMagick
 
 # airtap
 
-tap "homebrew/cask"
 cask "sauce-connect" # Sauce Connect
