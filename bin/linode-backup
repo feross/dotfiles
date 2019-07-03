@@ -1,7 +1,7 @@
 #!/bin/sh
 set -Eeuo pipefail
 
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@future:"/home/feross/" /Volumes/Time\ Machine\ 1/Linode/future
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@athena:"/home/feross/" /Volumes/Time\ Machine\ 1/Linode/athena
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@gimli:"/home/feross/" /Volumes/Time\ Machine\ 1/Linode/gimli
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@webtorrent:"/home/feross/" /Volumes/Time\ Machine\ 1/Linode/webtorrent
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@future:"/home/feross/" /Users/feross/Backup/future
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@athena:"/home/feross/" /Users/feross/Backup/athena
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@gimli:"/home/feross/" /Users/feross/Backup/gimli
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --delete --inplace -e "ssh -p 44444" feross@webtorrent:"/home/feross/" /Users/feross/Backup/webtorrent
