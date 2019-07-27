@@ -27,11 +27,12 @@ brew "pipenv" # Node-style local modules for Python
 # Useful command line tools
 #
 
-brew "wget" # GNU Wget
-brew "hub" # GitHub CLI
 brew "fd" # Better "find"
-brew "youtube-dl" # YouTube downloader
+brew "htop" # Improved top
+brew "hub" # GitHub CLI
 brew "siege" # HTTP load testing and benchmarking utility
+brew "wget" # GNU Wget
+brew "youtube-dl" # YouTube downloader
 cask "ngrok" # Secure tunnels to localhost
 
 #
