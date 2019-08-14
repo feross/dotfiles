@@ -13,9 +13,11 @@
 		"nginx",
 		"Package Control",
 		"Pretty JSON",
+		"Protocol Buffer Syntax",
 		"Pug",
 		"StandardFormat",
 		"SublimeLinter",
-		"SublimeLinter-contrib-standard"
+		"SublimeLinter-contrib-standard",
+		"TypeScript Syntax"
 	]
 }
