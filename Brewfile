@@ -52,3 +52,7 @@ brew "graphicsmagick" # GraphicsMagick
 # airtap
 
 cask "sauce-connect" # Sauce Connect
+
+# standard-packages
+
+cask "apache-couchdb" # CouchDB
