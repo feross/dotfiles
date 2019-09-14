@@ -37,6 +37,12 @@ cask "ngrok" # Secure tunnels to localhost
 cask "gpg-suite" # GPG Tools
 
 #
+# Useful applications
+#
+
+cask "wireshark"
+
+#
 # Project dependencies
 #
 
