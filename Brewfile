@@ -57,3 +57,8 @@ cask "sauce-connect" # Sauce Connect
 # standard-packages
 
 cask "apache-couchdb" # CouchDB
+
+# webtorrent desktop
+
+brew "fakeroot" # Provide a fake root env (Used by electron-installer-debian)
+brew "dpkg" # Debian package manager (Used by electron-installer-debian)
