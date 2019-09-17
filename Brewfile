@@ -67,4 +67,5 @@ cask "apache-couchdb" # CouchDB
 # webtorrent desktop
 
 brew "fakeroot" # Provide a fake root env (Used by electron-installer-debian)
-brew "dpkg" # Debian package manager (Used by electron-installer-debian)
+brew "dpkg" # Debian package tool (Used by electron-installer-debian)
+brew "rpm" # Red Hat package tool (Used by electron-installer-redhat)
