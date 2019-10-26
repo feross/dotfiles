@@ -11,7 +11,7 @@ then
   for host in $hosts
   do
     echo "${GREEN}$host:${NC} $@"
-    ssh $host -t zsh -ci \"$@\"
+    ssh $host -t zsh -ci \"$@\" || true
   done
 else
   echo "run-remote - run remote command on all my servers"
