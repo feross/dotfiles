@@ -40,6 +40,7 @@ cask "gpg-suite" # GPG Tools
 #
 
 cask "wireshark"
+cask "db-browser-for-sqlite"
 
 #
 # Project dependencies
