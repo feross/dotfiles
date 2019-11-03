@@ -27,7 +27,6 @@
 		"uploads/*",
 		"vendor/*"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"enable_tab_scrolling": true,
 	"ensure_newline_at_eof_on_save": true,
