@@ -53,6 +53,7 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll)
 # bitmidi.com
 
 brew "cmake" # Cmake (Used by emscripten)
+brew "binaryen" # WebAssembly compiler toolchain (Used by emscripten)
 brew "emscripten" # Emscripten (Used by timidity)
 brew "graphicsmagick" # GraphicsMagick
 
