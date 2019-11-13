@@ -27,11 +27,13 @@ brew "pipenv" # Node-style local modules for Python
 # Useful command line tools
 #
 
+brew "certbot" # Let's Encrypt
 brew "fd" # Better "find"
 brew "htop" # Improved top
 brew "hub" # GitHub CLI
 brew "siege" # HTTP load testing and benchmarking utility
 brew "wget" # GNU Wget
+
 cask "ngrok" # Secure tunnels to localhost
 cask "gpg-suite" # GPG Tools
 
