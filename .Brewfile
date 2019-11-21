@@ -33,6 +33,7 @@ brew "htop" # Improved top
 brew "hub" # GitHub CLI
 brew "siege" # HTTP load testing and benchmarking utility
 brew "wget" # GNU Wget
+brew "telnet" # Telnet protocol
 
 cask "ngrok" # Secure tunnels to localhost
 cask "gpg-suite" # GPG Tools
