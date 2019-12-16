@@ -29,11 +29,13 @@ brew "pipenv" # Node-style local modules for Python
 
 brew "certbot" # Let's Encrypt
 brew "fd" # Better "find"
+brew "ffmpeg" # Media conversion
 brew "htop" # Improved top
 brew "hub" # GitHub CLI
 brew "siege" # HTTP load testing and benchmarking utility
-brew "wget" # GNU Wget
 brew "telnet" # Telnet protocol
+brew "wget" # GNU Wget
+brew "youtube-dl" # YouTube downloader
 
 cask "ngrok" # Secure tunnels to localhost
 cask "gpg-suite" # GPG Tools
