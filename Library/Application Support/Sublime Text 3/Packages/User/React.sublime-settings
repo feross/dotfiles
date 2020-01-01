@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"js",
-		"mjs"
+		"mjs",
+		"cjs"
 	]
 }

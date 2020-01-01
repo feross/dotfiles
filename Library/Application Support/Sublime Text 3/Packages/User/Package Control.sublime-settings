@@ -5,10 +5,10 @@
 	],
 	"installed_packages":
 	[
-		"Babel",
 		"DocBlockr",
 		"EJS 2",
 		"HTML-CSS-JS Prettify",
+		"JSCustom",
 		"MarkdownPreview",
 		"nginx",
 		"Package Control",
