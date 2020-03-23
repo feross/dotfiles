@@ -27,7 +27,6 @@ brew "pipenv" # Node-style local modules for Python
 # Useful command line tools
 #
 
-brew "certbot" # Let's Encrypt
 brew "fd" # Better "find"
 brew "ffmpeg" # Media conversion
 brew "htop" # Improved top
