@@ -37,7 +37,7 @@ brew "wget" # GNU Wget
 brew "youtube-dl" # YouTube downloader
 
 cask "ngrok" # Secure tunnels to localhost
-cask "gpg-suite" # GPG Tools
+# cask "gpg-suite" # GPG Tools
 
 #
 # Useful applications
@@ -74,3 +74,7 @@ cask "apache-couchdb" # CouchDB
 brew "fakeroot" # Provide a fake root env (Used by electron-installer-debian)
 brew "dpkg" # Debian package tool (Used by electron-installer-debian)
 brew "rpm" # Red Hat package tool (Used by electron-installer-redhat)
+
+# src.dev
+
+cask "docker" # Docker for Mac
