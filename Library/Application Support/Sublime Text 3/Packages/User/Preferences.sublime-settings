@@ -17,6 +17,7 @@
 		"*.ttf",
 		"*.zip",
 		".cache/*",
+		".next/*",
 		"_site/*",
 		"build/*",
 		"bundle.css",
@@ -26,6 +27,7 @@
 		"node_modules/*",
 		"out/*",
 		"package-lock.json",
+		"third_party/*",
 		"uploads/*",
 		"vendor/*"
 	],
