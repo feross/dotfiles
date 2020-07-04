@@ -1,7 +1,7 @@
 # Use with `brew bundle`
 #
 # Install these Homebrew formula globally:
-#   brew bundle
+#   brew bundle --no-lock --file=~/.Brewfile
 #
 # List all installed Homebrew formula not listed below:
 #   brew bundle cleanup
