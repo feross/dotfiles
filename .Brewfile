@@ -13,6 +13,15 @@
 
 # Enable casks
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
+#
+# Fonts
+#
+
+cask "font-source-code-pro"
+cask "font-righteous"
+cask "font-fira-code"
 
 #
 # Updated built-in system tools
