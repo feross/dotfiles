@@ -1,8 +1,8 @@
 {
 	"extensions":
 	[
-		"js",
 		"mjs",
-		"cjs"
+		"cjs",
+		"js"
 	]
 }
