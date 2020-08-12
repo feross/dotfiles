@@ -1,6 +1,7 @@
-{
+ {
 	"binary_file_patterns":
 	[
+		"*.chromeapp.js",
 		"*.dds",
 		"*.eot",
 		"*.gif",
@@ -10,7 +11,6 @@
 		"*.jpg",
 		"*.map",
 		"*.min.js",
-		"*.chromeapp.js",
 		"*.pdf",
 		"*.png",
 		"*.swf",
@@ -20,6 +20,7 @@
 		".cache/*",
 		".next/*",
 		"_site/*",
+		"android/*",
 		"build/*",
 		"bundle.css",
 		"bundle.js",
