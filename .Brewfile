@@ -3,10 +3,10 @@
 # Install these Homebrew formula globally:
 #   brew bundle --no-lock --file=~/.Brewfile
 #
-# List all installed Homebrew formula not listed below:
+# List all installed Homebrew formula not in this Brewfile:
 #   brew bundle cleanup
 #
-# Uninstall all installed Homebrew formula not listed below:
+# Uninstall all installed Homebrew formula not in this Brewfile:
 #   brew bundle cleanup --force
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
@@ -85,7 +85,7 @@ cask "sauce-connect" # Sauce Connect
 # standard-packages
 #
 
-cask "apache-couchdb" # CouchDB
+brew "couchdb" # CouchDB
 
 #
 # webtorrent desktop
