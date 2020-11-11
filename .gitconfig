@@ -9,6 +9,8 @@
 	excludesfile = ~/.gitignore-global
 [push]
 	default = tracking
+[pull]
+	rebase = true
 [branch]
 	autosetuprebase = always
 [filter "media"]
