@@ -18,6 +18,7 @@ bundle.css
 
 *.sublime-project
 *.sublime-workspace
+*.code-workspace
 *.swo
 *.swp
 *.vi
