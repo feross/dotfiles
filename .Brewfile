@@ -100,7 +100,7 @@ brew "rpm" # Red Hat package tool (Used by electron-installer-redhat)
 # src.dev
 #
 
-cask "docker" # Docker for Mac
+# cask "docker" # Docker for Mac
 
 #
 # brave-browser
