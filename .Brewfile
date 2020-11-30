@@ -14,6 +14,7 @@
 # Enable casks
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-drivers"
 
 #
 # Fonts
@@ -54,8 +55,9 @@ cask "ngrok" # Secure tunnels to localhost
 # Useful applications
 #
 
-cask "wireshark"
+# cask "wireshark"
 cask "db-browser-for-sqlite"
+cask "zsa-wally" # Moonlander firmware tool
 
 #
 # Project dependencies
@@ -71,8 +73,6 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll)
 # bitmidi.com
 #
 
-brew "cmake" # Cmake (Used by emscripten)
-brew "binaryen" # WebAssembly compiler toolchain (Used by emscripten)
 brew "emscripten" # Emscripten (Used by timidity)
 brew "graphicsmagick" # GraphicsMagick
 
