@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -Eeuo pipefail
 
-hosts=('future' 'athena' 'webtorrent' 'relay' 'isengard')
+hosts=('future' 'athena' 'webtorrent' 'relay')
 
 GREEN='\033[0;32m'
 NC='\033[0m' # no color
