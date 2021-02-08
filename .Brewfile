@@ -86,15 +86,17 @@ cask "sauce-connect" # Sauce Connect
 # standard-packages
 #
 
-brew "couchdb" # CouchDB
+# Disabled because no bottle exists for Apple Silicon
+#brew "couchdb" # CouchDB
 
 #
 # webtorrent desktop
 #
 
-brew "fakeroot" # Provide a fake root env (Used by electron-installer-debian)
-brew "dpkg" # Debian package tool (Used by electron-installer-debian)
-brew "rpm" # Red Hat package tool (Used by electron-installer-redhat)
+# Disabled because no bottle exists for Apple Silicon
+#brew "fakeroot" # Provide a fake root env (Used by electron-installer-debian)
+#brew "dpkg" # Debian package tool (Used by electron-installer-debian)
+#brew "rpm" # Red Hat package tool (Used by electron-installer-redhat)
 
 #
 # src.dev
