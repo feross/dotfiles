@@ -56,23 +56,29 @@ cask "ngrok" # Secure tunnels to localhost
 #
 
 #cask "1password"
-cask "1password-beta" # remove beta when stable supports Apple Silicon
+cask "1password-beta" # remove when stable supports Apple Silicon
 cask "appcleaner"
+cask "brave-browser"
 cask "db-browser-for-sqlite"
 cask "deckset"
 cask "discord"
 cask "firefox"
 cask "github"
+cask "google-chrome"
+cask "google-chrome-canary"
 cask "hex-fiend"
+cask "microsoft-edge"
 cask "rectangle"
 cask "safari-technology-preview"
 cask "signal"
 #cask "slack"
-cask "slack-beta" # remove beta when stable supports Apple Silicon
+cask "slack-beta" # remove when stable supports Apple Silicon
 cask "soulver"
 cask "spotify"
 cask "vlc"
 cask "webtorrent"
+#cask "visual-studio-code"
+cask "visual-studio-code-insiders" # remove when stable supports Apple Silicon
 
 #cask "wireshark"
 #cask "zsa-wally" # Moonlander firmware tool
