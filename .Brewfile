@@ -47,7 +47,6 @@ brew "telnet" # Telnet protocol
 brew "watch" # Executes a program periodically
 brew "wget" # GNU Wget
 brew "youtube-dl" # YouTube downloader
-brew "z" # https://github.com/rupa/z
 
 cask "ngrok" # Secure tunnels to localhost
 # cask "gpg-suite" # GPG Tools
@@ -56,19 +55,24 @@ cask "ngrok" # Secure tunnels to localhost
 # Applications
 #
 
+#cask "1password"
+cask "1password-beta" # remove beta when stable supports Apple Silicon
 cask "appcleaner"
 cask "db-browser-for-sqlite"
 cask "deckset"
+cask "discord"
 cask "firefox"
 cask "github"
 cask "hex-fiend"
 cask "rectangle"
 cask "safari-technology-preview"
 cask "signal"
+#cask "slack"
+cask "slack-beta" # remove beta when stable supports Apple Silicon
 cask "soulver"
 cask "spotify"
-cask "thingsmacsandboxhelper"
 cask "vlc"
+cask "webtorrent"
 
 #cask "wireshark"
 #cask "zsa-wally" # Moonlander firmware tool
@@ -87,21 +91,21 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll)
 # bitmidi.com
 #
 
-brew "emscripten" # Emscripten (Used by timidity)
-brew "graphicsmagick" # GraphicsMagick
+brew "emscripten" # (Used by timidity)
+brew "graphicsmagick"
 
 #
 # airtap
 #
 
-cask "sauce-connect" # Sauce Connect
+cask "sauce-connect"
 
 #
 # standard-packages
 #
 
 # Disabled because no bottle exists for Apple Silicon
-#brew "couchdb" # CouchDB
+#brew "couchdb"
 
 #
 # webtorrent desktop
@@ -111,12 +115,6 @@ cask "sauce-connect" # Sauce Connect
 #brew "fakeroot" # Provide a fake root env (Used by electron-installer-debian)
 #brew "dpkg" # Debian package tool (Used by electron-installer-debian)
 #brew "rpm" # Red Hat package tool (Used by electron-installer-redhat)
-
-#
-# src.dev
-#
-
-# cask "docker" # Docker for Mac
 
 #
 # brave-browser
