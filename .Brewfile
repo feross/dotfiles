@@ -79,9 +79,25 @@ cask "vlc"
 cask "webtorrent"
 #cask "visual-studio-code"
 cask "visual-studio-code-insiders" # remove when stable supports Apple Silicon
+cask "the-unarchiver"
 
 #cask "wireshark"
 #cask "zsa-wally" # Moonlander firmware tool
+
+#
+# App Store / Manual
+#
+
+#Affinity Designer
+#DaisyDisk
+#Dato
+#Mimestream
+#Node
+#Reeder
+#Things
+#ThingsHelper
+#WireGuard
+#Xcode
 
 #
 # Project dependencies
