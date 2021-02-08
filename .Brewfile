@@ -13,8 +13,9 @@
 
 # Enable casks
 tap "homebrew/cask"
-tap "homebrew/cask-fonts"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 
 #
 # Fonts
@@ -52,12 +53,25 @@ cask "ngrok" # Secure tunnels to localhost
 # cask "gpg-suite" # GPG Tools
 
 #
-# Useful applications
+# Applications
 #
 
-# cask "wireshark"
+cask "appcleaner"
 cask "db-browser-for-sqlite"
-cask "zsa-wally" # Moonlander firmware tool
+cask "deckset"
+cask "firefox"
+cask "github"
+cask "hex-fiend"
+cask "rectangle"
+cask "safari-technology-preview"
+cask "signal"
+cask "soulver"
+cask "spotify"
+cask "thingsmacsandboxhelper"
+cask "vlc"
+
+#cask "wireshark"
+#cask "zsa-wally" # Moonlander firmware tool
 
 #
 # Project dependencies
