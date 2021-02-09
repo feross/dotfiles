@@ -1,0 +1,6 @@
+#!/bin/bash
+set -Eeuo pipefail
+
+ifconfig en0 down
+route flush
+ifconfig en0 up
