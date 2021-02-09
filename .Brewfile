@@ -24,9 +24,9 @@ tap "homebrew/cask-versions"
 # Fonts
 #
 
-cask "font-source-code-pro"
-cask "font-righteous"
-cask "font-fira-code"
+cask "font-source-code-pro" # programming font
+cask "font-righteous" # bitmidi.com font
+#cask "font-fira-code"
 
 #
 # Updated built-in system tools
@@ -76,6 +76,7 @@ cask "github"
 cask "google-chrome"
 cask "google-chrome-canary"
 cask "hex-fiend"
+cask "imageoptim"
 cask "microsoft-edge"
 cask "rectangle"
 cask "safari-technology-preview"
