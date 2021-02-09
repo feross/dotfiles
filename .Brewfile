@@ -41,7 +41,7 @@ brew "pipenv" # Node-style local modules for Python
 # Node.js
 #
 
-brew "node@14"
+brew "node"
 
 #
 # Useful command line tools
