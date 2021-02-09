@@ -11,7 +11,10 @@
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
+#
 # Enable casks
+#
+
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
@@ -35,6 +38,12 @@ brew "python" # Latest Python
 brew "pipenv" # Node-style local modules for Python
 
 #
+# Node.js
+#
+
+brew "node@14"
+
+#
 # Useful command line tools
 #
 
@@ -48,8 +57,8 @@ brew "watch" # Executes a program periodically
 brew "wget" # GNU Wget
 brew "youtube-dl" # YouTube downloader
 
-cask "ngrok" # Secure tunnels to localhost
-# cask "gpg-suite" # GPG Tools
+#cask "ngrok" # Secure tunnels to localhost
+#cask "gpg-suite" # GPG Tools
 
 #
 # Applications
@@ -92,7 +101,6 @@ cask "the-unarchiver"
 #DaisyDisk
 #Dato
 #Mimestream
-#Node
 #Reeder
 #Things
 #ThingsHelper
