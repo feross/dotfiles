@@ -1,7 +1,7 @@
 #!/bin/sh
 set -Eeuo pipefail
 
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" future:"/home/feross/" /Volumes/Zelda/Backup/future
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" athena:"/home/feross/" /Volumes/Zelda/Backup/athena
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" webtorrent:"/home/feross/" /Volumes/Zelda/Backup/webtorrent
-rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" relay:"/home/feross/" /Volumes/Zelda/Backup/relay
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" future:"/home/feross/" /Volumes/Legolas/Backup/future
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" athena:"/home/feross/" /Volumes/Legolas/Backup/athena
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" webtorrent:"/home/feross/" /Volumes/Legolas/Backup/webtorrent
+rsync -a -O -v --rsync-path="sudo rsync" --no-p --no-g --chmod=ugo=rwX --exclude "*.log*" --exclude ".git" --exclude ".npm" --exclude "node_modules" --exclude "crash-reports" --exclude "uploads" --delete --inplace -e "ssh" relay:"/home/feross/" /Volumes/Legolas/Backup/relay
