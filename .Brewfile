@@ -87,8 +87,7 @@ cask "soulver"
 cask "spotify"
 cask "vlc"
 cask "webtorrent"
-#cask "visual-studio-code"
-cask "visual-studio-code-insiders" # remove when stable supports Apple Silicon
+cask "visual-studio-code"
 cask "the-unarchiver"
 
 #cask "wireshark"
