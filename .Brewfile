@@ -64,8 +64,7 @@ brew "youtube-dl" # YouTube downloader
 # Applications
 #
 
-#cask "1password"
-cask "1password-beta" # remove when stable supports Apple Silicon
+cask "1password"
 cask "appcleaner"
 cask "brave-browser"
 cask "db-browser-for-sqlite"
@@ -157,3 +156,9 @@ brew "ccache" # Compiler cache (speeds up build)
 #
 
 brew "postgresql"
+
+#
+# puppeteer
+#
+
+brew "chromium" # Workaround for puppeteer not installing on M1: https://github.com/puppeteer/puppeteer/issues/6622
