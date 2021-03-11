@@ -157,9 +157,3 @@ brew "ccache" # Compiler cache (speeds up build)
 #
 
 brew "postgresql"
-
-#
-# puppeteer
-#
-
-cask "chromium" # Workaround for puppeteer not installing on M1: https://github.com/puppeteer/puppeteer/issues/6622
