@@ -78,6 +78,7 @@ cask "hex-fiend"
 cask "imageoptim"
 cask "microsoft-edge"
 cask "rectangle"
+cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
 cask "signal" # No Apple Silicon
 #cask "slack"
