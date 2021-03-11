@@ -67,11 +67,11 @@ brew "youtube-dl" # YouTube downloader
 cask "1password"
 cask "appcleaner"
 cask "brave-browser"
-cask "db-browser-for-sqlite"
+cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
-cask "discord"
+cask "discord" # No Apple Silicon
 cask "firefox"
-cask "github"
+cask "github" # No Apple Silicon
 cask "google-chrome"
 cask "google-chrome-canary"
 cask "hex-fiend"
@@ -79,13 +79,13 @@ cask "imageoptim"
 cask "microsoft-edge"
 cask "rectangle"
 cask "safari-technology-preview"
-cask "signal"
+cask "signal" # No Apple Silicon
 #cask "slack"
 cask "slack-beta" # remove when stable supports Apple Silicon
 cask "soulver"
-cask "spotify"
+cask "spotify" # No Apple Silicon
 cask "vlc"
-cask "webtorrent"
+cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
 cask "the-unarchiver"
 
