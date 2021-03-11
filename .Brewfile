@@ -162,4 +162,4 @@ brew "postgresql"
 # puppeteer
 #
 
-brew "chromium" # Workaround for puppeteer not installing on M1: https://github.com/puppeteer/puppeteer/issues/6622
+cask "chromium" # Workaround for puppeteer not installing on M1: https://github.com/puppeteer/puppeteer/issues/6622
