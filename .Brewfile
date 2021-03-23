@@ -50,7 +50,7 @@ brew "node"
 brew "fd" # Better "find"
 brew "ffmpeg" # Media conversion
 brew "htop" # Improved top
-brew "hub" # GitHub CLI
+brew "gh" # GitHub CLI
 brew "siege" # HTTP load testing and benchmarking utility
 brew "telnet" # Telnet protocol
 brew "watch" # Executes a program periodically
