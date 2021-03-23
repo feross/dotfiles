@@ -90,6 +90,7 @@ cask "vlc"
 cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
 cask "the-unarchiver"
+cask "tor-browser" # No Apple Silicon
 
 #cask "wireshark"
 #cask "zsa-wally" # Moonlander firmware tool
