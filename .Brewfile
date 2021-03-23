@@ -4,10 +4,10 @@
 #   brew bundle --no-lock --file=~/.Brewfile
 #
 # List all installed Homebrew formula not in this Brewfile:
-#   brew bundle cleanup
+#   brew bundle cleanup --file=~/.Brewfile
 #
 # Uninstall all installed Homebrew formula not in this Brewfile:
-#   brew bundle cleanup --force
+#   brew bundle cleanup --force --file=~/.Brewfile
 #
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
@@ -71,6 +71,7 @@ cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
 cask "discord" # No Apple Silicon
 cask "firefox"
+cask "firefox-nightly"
 cask "github" # No Apple Silicon
 cask "google-chrome"
 cask "google-chrome-canary"
