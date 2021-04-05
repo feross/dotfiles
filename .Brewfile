@@ -78,6 +78,7 @@ cask "google-chrome-canary"
 cask "hex-fiend"
 cask "imageoptim"
 cask "microsoft-edge"
+cask "opera"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
