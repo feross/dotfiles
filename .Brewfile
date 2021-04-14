@@ -83,8 +83,7 @@ cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
 cask "signal" # No Apple Silicon
-#cask "slack"
-cask "slack-beta" # remove when stable supports Apple Silicon
+cask "slack"
 cask "soulver"
 cask "spotify" # No Apple Silicon
 cask "vlc"
