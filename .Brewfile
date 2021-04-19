@@ -67,6 +67,7 @@ brew "youtube-dl" # YouTube downloader
 cask "1password"
 cask "appcleaner"
 cask "brave-browser"
+cask "brave-browser-nightly"
 cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
 cask "discord" # No Apple Silicon
@@ -78,6 +79,7 @@ cask "google-chrome-canary"
 cask "hex-fiend"
 cask "imageoptim"
 cask "microsoft-edge"
+cask "microsoft-edge-dev"
 cask "opera"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
