@@ -31,3 +31,5 @@
 # Re-enable once Ubuntu upgrades git to version 2.18
 # [protocol]
 # 	version = 2
+[init]
+	defaultBranch = master
