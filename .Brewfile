@@ -76,6 +76,7 @@ cask "firefox-nightly"
 cask "github" # No Apple Silicon
 cask "google-chrome"
 cask "google-chrome-canary"
+cask "google-drive"
 cask "hex-fiend"
 cask "imageoptim"
 cask "microsoft-edge"
