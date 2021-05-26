@@ -73,7 +73,7 @@ cask "deckset"
 cask "discord" # No Apple Silicon
 cask "firefox"
 cask "firefox-nightly"
-cask "github" # No Apple Silicon
+cask "github"
 cask "google-chrome"
 cask "google-chrome-canary"
 cask "google-drive"
