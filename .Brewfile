@@ -81,6 +81,7 @@ cask "hex-fiend"
 cask "imageoptim"
 cask "microsoft-edge"
 cask "microsoft-edge-dev"
+cask "notion"
 cask "opera"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
