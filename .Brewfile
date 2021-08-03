@@ -51,6 +51,7 @@ brew "fd" # Better "find"
 brew "ffmpeg" # Media conversion
 brew "htop" # Improved top
 brew "gh" # GitHub CLI
+brew "jq" # JSON processor
 brew "siege" # HTTP load testing and benchmarking utility
 brew "telnet" # Telnet protocol
 brew "watch" # Executes a program periodically
