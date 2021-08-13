@@ -112,6 +112,7 @@ cask "zoom"
 #Reeder
 #Things
 #ThingsHelper
+#Twitter
 #WireGuard
 #Xcode
 
