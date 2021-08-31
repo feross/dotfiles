@@ -84,6 +84,7 @@ cask "microsoft-edge"
 cask "microsoft-edge-dev"
 cask "notion"
 cask "opera"
+cask "parallels"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
