@@ -24,8 +24,6 @@ tap "homebrew/cask-versions"
 # Fonts
 #
 
-brew "svn" # required by "font-source-code-pro"
-cask "font-source-code-pro" # programming font
 cask "font-righteous" # bitmidi.com font
 
 #
@@ -80,6 +78,8 @@ cask "google-chrome-canary"
 cask "google-drive"
 cask "hex-fiend"
 cask "imageoptim"
+cask "logitech-firmwareupdatetool"
+cask "logitech-presentation"
 cask "microsoft-edge"
 cask "microsoft-edge-dev"
 cask "notion"
@@ -91,7 +91,7 @@ cask "safari-technology-preview"
 cask "signal" # No Apple Silicon
 cask "slack"
 cask "soulver"
-cask "spotify" # No Apple Silicon
+cask "spotify"
 cask "vlc"
 cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
@@ -110,6 +110,7 @@ cask "zoom"
 #DaisyDisk
 #Dato
 #Mimestream
+#Plash
 #Reeder
 #Things
 #ThingsHelper
