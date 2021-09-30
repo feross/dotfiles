@@ -24,6 +24,8 @@ tap "homebrew/cask-versions"
 # Fonts
 #
 
+brew "svn" # required by "font-source-code-pro"
+cask "font-source-code-pro" # programming font
 cask "font-righteous" # bitmidi.com font
 
 #
