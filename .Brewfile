@@ -85,6 +85,7 @@ cask "logitech-presentation"
 cask "loom"
 cask "microsoft-edge"
 cask "microsoft-edge-dev"
+cask "microsoft-office"
 cask "notion"
 cask "opera"
 cask "parallels"
@@ -167,7 +168,8 @@ cask "sauce-connect"
 brew "ccache" # Compiler cache (speeds up build)
 
 #
-# Wormhole
+# Socket
 #
 
 brew "postgresql"
+brew "redis"
