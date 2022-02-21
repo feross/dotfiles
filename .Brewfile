@@ -175,3 +175,12 @@ brew "ccache" # Compiler cache (speeds up build)
 brew "postgresql"
 brew "redis"
 brew "cmake"
+
+# node-canvas dependencies
+brew "pkg-config"
+brew "cairo"
+brew "pango"
+brew "libpng"
+brew "jpeg"
+brew "giflib"
+brew "librsvg"
