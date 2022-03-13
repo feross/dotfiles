@@ -27,7 +27,7 @@ tap "homebrew/services"
 
 brew "svn" # required by "font-source-code-pro"
 cask "font-source-code-pro" # programming font
-cask "font-righteous" # bitmidi.com font
+#cask "font-righteous" # bitmidi.com font
 
 #
 # Updated built-in system tools
@@ -53,6 +53,7 @@ brew "ffmpeg" # Media conversion
 brew "htop" # Improved top
 brew "gh" # GitHub CLI
 brew "jq" # JSON processor
+brew "mas" # Mac App Store CLI
 brew "siege" # HTTP load testing and benchmarking utility
 brew "telnet" # Telnet protocol
 brew "watch" # Executes a program periodically
@@ -83,9 +84,11 @@ cask "hex-fiend"
 cask "imageoptim"
 cask "istat-menus"
 cask "loom"
+cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "microsoft-edge-dev"
 cask "microsoft-office"
+cask "mimestream"
 cask "notion"
 cask "opera"
 cask "parallels"
@@ -94,7 +97,6 @@ cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
 cask "signal" # No Apple Silicon
-cask "slack"
 cask "soulver"
 cask "spotify"
 cask "vlc"
@@ -108,20 +110,18 @@ cask "zoom"
 #cask "zsa-wally" # Moonlander firmware tool
 
 #
-# App Store / Manual
+# App Store
 #
 
-#Affinity Designer
-#DaisyDisk
-#Dato
-#Mimestream
-#Plash
-#Reeder
-#Things
-#ThingsHelper
-#Twitter
-#WireGuard
-#Xcode
+mas "Affinity Designer", id: 824171161
+mas "DaisyDisk", id: 411643860
+mas "Dato", id: 1470584107
+mas "Plash", id: 1494023538
+mas "Reeder 5", id: 1529448980
+mas "Slack for Desktop", id: 803453959
+mas "Things 3", id: 904280696
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
 
 #
 # Project dependencies
@@ -137,8 +137,8 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll)
 # bitmidi.com
 #
 
-brew "emscripten" # (Used by timidity)
-brew "graphicsmagick"
+#brew "emscripten" # (Used by timidity)
+#brew "graphicsmagick"
 
 #
 # airtap
@@ -166,7 +166,7 @@ cask "sauce-connect"
 # brave-browser
 #
 
-brew "ccache" # Compiler cache (speeds up build)
+#brew "ccache" # Compiler cache (speeds up build)
 
 #
 # Socket
