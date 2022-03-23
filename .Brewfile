@@ -166,7 +166,7 @@ cask "sauce-connect"
 # brave-browser
 #
 
-#brew "ccache" # Compiler cache (speeds up build)
+brew "ccache" # Compiler cache (speeds up build)
 
 #
 # Socket
