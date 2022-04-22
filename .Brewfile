@@ -99,6 +99,7 @@ cask "safari-technology-preview"
 cask "signal" # No Apple Silicon
 cask "soulver"
 cask "spotify"
+cask "steam"
 cask "vlc"
 cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
