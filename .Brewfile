@@ -174,7 +174,7 @@ brew "ccache" # Compiler cache (speeds up build)
 # Socket
 #
 
-brew "postgresql"
+brew "postgresql@14"
 brew "redis"
 brew "cmake"
 
