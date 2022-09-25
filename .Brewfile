@@ -73,7 +73,7 @@ cask "brave-browser"
 cask "brave-browser-nightly"
 cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
-cask "discord" # No Apple Silicon
+cask "discord"
 cask "firefox"
 cask "firefox-nightly"
 cask "github"
@@ -97,7 +97,7 @@ cask "qbserve"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
-cask "signal" # No Apple Silicon
+cask "signal"
 cask "soulver"
 cask "spotify"
 cask "steam"
@@ -105,6 +105,7 @@ cask "vlc"
 cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
 cask "the-unarchiver"
+cask "thingsmacsandboxhelper"
 cask "tor-browser" # No Apple Silicon
 cask "zoom"
 
