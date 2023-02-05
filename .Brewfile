@@ -90,6 +90,7 @@ cask "microsoft-edge"
 cask "microsoft-edge-dev"
 cask "microsoft-office"
 cask "mimestream"
+cask "missive"
 cask "notion"
 cask "obs"
 cask "opera"
@@ -126,6 +127,7 @@ mas "Slack for Desktop", id: 803453959
 mas "Things 3", id: 904280696
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
+mas "MenubarX", id: 1575588022
 
 #
 # Project dependencies
