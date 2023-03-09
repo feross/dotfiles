@@ -99,6 +99,7 @@ cask "qbserve"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
+cask "sequel-ace"
 cask "signal"
 cask "soulver"
 cask "spotify"
