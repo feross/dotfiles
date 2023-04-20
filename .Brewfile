@@ -73,6 +73,7 @@ cask "brave-browser"
 cask "brave-browser-nightly"
 cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
+cask "descript"
 cask "discord"
 cask "firefox"
 cask "firefox-nightly"
