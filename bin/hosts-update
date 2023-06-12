@@ -2,3 +2,4 @@
 set -Eeuo pipefail
 
 curl "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" > hosts.txt
+grep -v '#' hosts.txt | awk '{print $1}'| sort | uniq -c
