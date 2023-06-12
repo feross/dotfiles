@@ -1,0 +1,4 @@
+#!/bin/bash
+set -Eeuo pipefail
+
+curl "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" > hosts.txt
