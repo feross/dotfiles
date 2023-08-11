@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eeuo pipefail
 
-cat hosts.txt > /etc/hosts
+cat /Users/feross/bin/hosts.txt > /etc/hosts
