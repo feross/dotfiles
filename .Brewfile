@@ -72,6 +72,7 @@ cask "appcleaner"
 cask "bartender"
 cask "brave-browser"
 cask "brave-browser-nightly"
+cask "cleanshot"
 cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
 cask "descript"
