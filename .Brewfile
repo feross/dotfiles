@@ -15,7 +15,7 @@
 # Enable casks
 #
 
-tap "homebrew/cask"
+# not needed anymore tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
@@ -87,6 +87,7 @@ cask "hex-fiend"
 cask "imageoptim"
 cask "istat-menus"
 cask "linear-linear"
+cask "logi-options-plus"
 cask "loom"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
@@ -104,6 +105,7 @@ cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 cask "safari-technology-preview"
 cask "sequel-ace"
+cask "sf-symbols"
 cask "signal"
 cask "soulver"
 cask "spotify"
