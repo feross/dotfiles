@@ -72,6 +72,7 @@ cask "appcleaner"
 cask "bartender"
 cask "brave-browser"
 cask "brave-browser-nightly"
+cask "box-drive"
 cask "cleanshot"
 cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
@@ -128,13 +129,14 @@ cask "zoom"
 mas "Affinity Designer", id: 824171161
 mas "DaisyDisk", id: 411643860
 mas "Dato", id: 1470584107
+mas "MenubarX", id: 1575588022
+mas "MindNode", id: 1289197285
 mas "Plash", id: 1494023538
 mas "Reeder 5", id: 1529448980
 mas "Slack for Desktop", id: 803453959
 mas "Things 3", id: 904280696
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
-mas "MenubarX", id: 1575588022
 
 #
 # Project dependencies
