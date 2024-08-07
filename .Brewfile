@@ -71,7 +71,7 @@ cask "1password"
 cask "appcleaner"
 cask "bartender"
 cask "brave-browser"
-cask "brave-browser-nightly"
+# cask "brave-browser-nightly"
 cask "box-drive"
 cask "chatgpt"
 cask "cleanshot"
@@ -80,7 +80,7 @@ cask "deckset"
 cask "descript"
 cask "discord"
 cask "firefox"
-cask "firefox-nightly"
+# cask "firefox-nightly"
 cask "github"
 cask "google-chrome"
 cask "google-chrome-canary"
@@ -93,7 +93,7 @@ cask "logi-options-plus"
 cask "loom"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
-cask "microsoft-edge-dev"
+# cask "microsoft-edge-dev"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "mimestream"
@@ -106,7 +106,7 @@ cask "parallels"
 cask "qbserve"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
-cask "safari-technology-preview"
+# cask "safari-technology-preview"
 cask "sequel-ace"
 cask "sf-symbols"
 cask "signal"
@@ -189,15 +189,31 @@ brew "ccache" # Compiler cache (speeds up build)
 # Socket
 #
 
-brew "postgresql@14"
+brew "libpq"
 brew "redis"
-brew "cmake"
+brew "jq"
+brew "terraform"
+brew "tanka"
+brew "jsonnet"
+brew "jsonnet-bundler"
+brew "helm"
+brew "python-setuptools"
 
-# node-canvas dependencies
-brew "pkg-config"
-brew "cairo"
-brew "pango"
-brew "libpng"
-brew "jpeg"
-brew "giflib"
+cask "1password-cli"
+
+# optional deps
+brew "graphviz"
 brew "librsvg"
+
+tap "eddieantonio/eddieantonio"
+brew "eddieantonio/eddieantonio/imgcat"
+
+# gcloud CLI
+cask "google-cloud-sdk"
+
+# docker
+cask "docker"
+
+# OLD
+# brew "postgresql@14"
+# brew "cmake"
