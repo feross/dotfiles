@@ -70,6 +70,7 @@ brew "youtube-dl" # YouTube downloader
 cask "1password"
 cask "appcleaner"
 cask "bartender"
+cask "beeper"
 cask "brave-browser"
 # cask "brave-browser-nightly"
 cask "box-drive"
