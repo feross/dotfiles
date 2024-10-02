@@ -132,7 +132,6 @@ cask "zoom"
 mas "Affinity Designer", id: 824171161
 mas "DaisyDisk", id: 411643860
 mas "Dato", id: 1470584107
-mas "MenubarX", id: 1575588022
 mas "MindNode", id: 1289197285
 mas "Plash", id: 1494023538
 mas "Reeder 5", id: 1529448980
