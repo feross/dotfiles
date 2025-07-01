@@ -214,7 +214,7 @@ brew "eddieantonio/eddieantonio/imgcat"
 cask "google-cloud-sdk"
 
 # docker
-cask "docker"
+cask "docker-desktop"
 
 # OLD
 # brew "postgresql@14"
