@@ -16,10 +16,10 @@
 #
 
 # not needed anymore tap "homebrew/cask"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-tap "homebrew/services"
+#tap "homebrew/cask-drivers"
+#tap "homebrew/cask-fonts"
+#tap "homebrew/cask-versions"
+#tap "homebrew/services"
 
 #
 # Fonts
@@ -105,11 +105,12 @@ cask "notion-calendar"
 cask "obs"
 cask "opera"
 cask "parallels"
+cask "pgadmin4"
 cask "qbserve"
 cask "rectangle"
 cask "robo-3t" # No Apple Silicon
 # cask "safari-technology-preview"
-cask "sequel-ace"
+# cask "sequel-ace" # MySQL viewer
 cask "sf-symbols"
 cask "signal"
 cask "soulver"
@@ -188,6 +189,13 @@ cask "sauce-connect"
 brew "ccache" # Compiler cache (speeds up build)
 
 #
+# Wormhole
+#
+
+brew "b2-tools"
+brew "postgresql@16"
+
+#
 # Socket
 #
 
@@ -215,7 +223,3 @@ cask "google-cloud-sdk"
 
 # docker
 cask "docker-desktop"
-
-# OLD
-# brew "postgresql@14"
-# brew "cmake"
