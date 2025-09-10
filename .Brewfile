@@ -58,7 +58,7 @@ brew "siege" # HTTP load testing and benchmarking utility
 brew "telnet" # Telnet protocol
 brew "watch" # Executes a program periodically
 brew "wget" # GNU Wget
-brew "youtube-dl" # YouTube downloader
+brew "yt-dlp" # YouTube downloader
 
 #cask "ngrok" # Secure tunnels to localhost
 #cask "gpg-suite" # GPG Tools
@@ -80,7 +80,6 @@ cask "cleanshot"
 cask "cursor"
 cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
-cask "descript"
 cask "discord"
 cask "firefox"
 # cask "firefox-nightly"
