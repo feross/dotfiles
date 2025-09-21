@@ -132,7 +132,7 @@ cask "zoom"
 # App Store
 #
 
-mas "Affinity Designer", id: 824171161
+# mas "Affinity Designer", id: 824171162 # Manually install from Purchase History
 mas "DaisyDisk", id: 411643860
 mas "Dato", id: 1470584107
 mas "MindNode", id: 1289197285
