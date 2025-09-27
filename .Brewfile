@@ -134,9 +134,7 @@ cask "zoom"
 
 # mas "Affinity Designer", id: 824171162 # Manually install from Purchase History
 mas "DaisyDisk", id: 411643860
-mas "Dato", id: 1470584107
 mas "MindNode", id: 1289197285
-mas "Plash", id: 1494023538
 mas "Reeder 5", id: 1529448980
 mas "Slack for Desktop", id: 803453959
 mas "Things 3", id: 904280696
