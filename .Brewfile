@@ -218,7 +218,7 @@ tap "eddieantonio/eddieantonio"
 brew "eddieantonio/eddieantonio/imgcat"
 
 # gcloud CLI
-cask "google-cloud-sdk"
+cask "gcloud-cli"
 
 # docker
 cask "docker-desktop"
