@@ -54,6 +54,7 @@ brew "htop" # Improved top
 brew "gh" # GitHub CLI
 brew "jq" # JSON processor
 brew "mas" # Mac App Store CLI
+brew "ripgrep" # Fast grep
 brew "siege" # HTTP load testing and benchmarking utility
 brew "telnet" # Telnet protocol
 brew "watch" # Executes a program periodically
