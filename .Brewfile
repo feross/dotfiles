@@ -12,6 +12,12 @@
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
 #
+# Manually install (not on Homebrew)
+#
+
+# Wispr Flow (https://wisprflow.ai/)
+
+#
 # Fonts
 #
 
@@ -128,7 +134,7 @@ mas "Reeder 5", id: 1529448980
 mas "Slack for Desktop", id: 803453959
 mas "Things 3", id: 904280696
 mas "WireGuard", id: 1451685025
-mas "Xcode", id: 497799835
+#mas "Xcode", id: 497799835
 mas "Telegram", id: 747648890
 
 #
