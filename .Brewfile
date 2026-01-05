@@ -1,7 +1,7 @@
 # Use with `brew bundle`
 #
 # Install these Homebrew formula globally:
-#   brew bundle --no-lock --file=~/.Brewfile
+#   brew bundle --file=~/.Brewfile
 #
 # List all installed Homebrew formula not in this Brewfile:
 #   brew bundle cleanup --file=~/.Brewfile
@@ -12,21 +12,11 @@
 # Full instructions: https://github.com/Homebrew/homebrew-bundle
 
 #
-# Enable casks
-#
-
-# not needed anymore tap "homebrew/cask"
-#tap "homebrew/cask-drivers"
-#tap "homebrew/cask-fonts"
-#tap "homebrew/cask-versions"
-#tap "homebrew/services"
-
-#
 # Fonts
 #
 
-brew "svn" # required by "font-source-code-pro"
-cask "font-source-code-pro" # programming font
+#brew "svn" # required by "font-source-code-pro"
+#cask "font-source-code-pro" # programming font
 #cask "font-righteous" # bitmidi.com font
 
 #
@@ -48,16 +38,16 @@ brew "node"
 # Useful command line tools
 #
 
-brew "fd" # Better "find"
-brew "ffmpeg" # Media conversion
-brew "htop" # Improved top
+#brew "fd" # Better "find"
+#brew "ffmpeg" # Media conversion
+#brew "htop" # Improved top
 brew "gh" # GitHub CLI
 brew "jq" # JSON processor
 brew "mas" # Mac App Store CLI
-brew "ripgrep" # Fast grep
-brew "siege" # HTTP load testing and benchmarking utility
-brew "telnet" # Telnet protocol
-brew "watch" # Executes a program periodically
+#brew "ripgrep" # Fast grep
+#brew "siege" # HTTP load testing and benchmarking utility
+#brew "telnet" # Telnet protocol
+#brew "watch" # Executes a program periodically
 brew "wget" # GNU Wget
 brew "yt-dlp" # YouTube downloader
 
@@ -70,23 +60,22 @@ brew "yt-dlp" # YouTube downloader
 
 cask "1password"
 cask "appcleaner"
-cask "bartender"
-cask "beeper"
-cask "brave-browser"
+#cask "beeper"
+#cask "brave-browser"
 # cask "brave-browser-nightly"
-cask "box-drive"
+#cask "box-drive"
 cask "chatgpt"
 cask "claude"
 cask "cleanshot"
 cask "cursor"
-cask "db-browser-for-sqlite" # No Apple Silicon
+#cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
 cask "discord"
 cask "firefox"
-# cask "firefox-nightly"
+#cask "firefox-nightly"
 cask "github"
 cask "google-chrome"
-cask "google-chrome@canary"
+#cask "google-chrome@canary"
 cask "google-drive"
 cask "hex-fiend"
 cask "imageoptim"
@@ -95,39 +84,38 @@ cask "linear-linear"
 cask "logi-options+"
 cask "loom"
 cask "microsoft-auto-update"
-cask "microsoft-edge"
-# cask "microsoft-edge-dev"
+#cask "microsoft-edge"
+#cask "microsoft-edge-dev"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "mimestream"
-cask "missive"
-cask "netdownloadhelpercoapp"
+#cask "missive"
+#cask "netdownloadhelpercoapp"
 cask "notion"
 cask "notion-calendar"
-cask "obs"
-cask "opera"
-cask "parallels"
-cask "pgadmin4"
-cask "qbserve"
+#cask "obs"
+#cask "opera"
+#cask "parallels"
+#cask "pgadmin4"
+#cask "qbserve"
 cask "rectangle"
-cask "robo-3t" # No Apple Silicon
-# cask "safari-technology-preview"
-# cask "sequel-ace" # MySQL viewer
-cask "sf-symbols"
+#cask "robo-3t" # No Apple Silicon
+#cask "safari-technology-preview"
+#cask "sequel-ace" # MySQL viewer
+#cask "sf-symbols"
 cask "signal"
 cask "soulver"
 cask "spotify"
-cask "steam"
+#cask "steam"
 cask "vlc"
-cask "webtorrent" # No Apple Silicon
+#cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
-cask "the-unarchiver"
-cask "thingsmacsandboxhelper"
-cask "tor-browser" # No Apple Silicon
+#cask "the-unarchiver" # Adware now!
+#cask "thingsmacsandboxhelper"
+#cask "tor-browser" # No Apple Silicon
 cask "zoom"
 
 #cask "wireshark"
-#cask "zsa-wally" # Moonlander firmware tool
 
 #
 # App Store
@@ -135,7 +123,7 @@ cask "zoom"
 
 # mas "Affinity Designer", id: 824171162 # Manually install from Purchase History
 mas "DaisyDisk", id: 411643860
-mas "MindNode", id: 1289197285
+mas "MindNode", id: 6446116532
 mas "Reeder 5", id: 1529448980
 mas "Slack for Desktop", id: 803453959
 mas "Things 3", id: 904280696
@@ -164,7 +152,7 @@ brew "gsl" # GNU Scientific Library (Used by Jekyll)
 # airtap
 #
 
-cask "sauce-connect"
+#cask "sauce-connect"
 
 #
 # standard-packages
@@ -186,40 +174,40 @@ cask "sauce-connect"
 # brave-browser
 #
 
-brew "ccache" # Compiler cache (speeds up build)
+#brew "ccache" # Compiler cache (speeds up build)
 
 #
 # Wormhole
 #
 
-brew "b2-tools"
-brew "postgresql@16"
+#brew "b2-tools"
+#brew "postgresql@16"
 
 #
 # Socket
 #
 
-brew "libpq"
-brew "redis"
-brew "jq"
-brew "terraform"
-brew "tanka"
-brew "jsonnet"
-brew "jsonnet-bundler"
-brew "helm"
-brew "python-setuptools"
+#brew "libpq"
+#brew "redis"
+#brew "jq"
+#brew "terraform"
+#brew "tanka"
+#brew "jsonnet"
+#brew "jsonnet-bundler"
+#brew "helm"
+#brew "python-setuptools"
 
-cask "1password-cli"
+#cask "1password-cli"
 
 # optional deps
-brew "graphviz"
-brew "librsvg"
+#brew "graphviz"
+#brew "librsvg"
 
-tap "eddieantonio/eddieantonio"
-brew "eddieantonio/eddieantonio/imgcat"
+#tap "eddieantonio/eddieantonio"
+#brew "eddieantonio/eddieantonio/imgcat"
 
 # gcloud CLI
-cask "gcloud-cli"
+#cask "gcloud-cli"
 
 # docker
-cask "docker-desktop"
+#cask "docker-desktop"
