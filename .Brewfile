@@ -66,6 +66,7 @@ brew "yt-dlp" # YouTube downloader
 
 cask "1password"
 cask "appcleaner"
+cask "backblaze"
 #cask "beeper"
 #cask "brave-browser"
 # cask "brave-browser-nightly"
