@@ -26,6 +26,12 @@
 #cask "font-righteous" # bitmidi.com font
 
 #
+# macOS services
+#
+
+cask "markdown-service-tools"
+
+#
 # Updated built-in system tools
 #
 
