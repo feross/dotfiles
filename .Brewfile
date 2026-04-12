@@ -51,7 +51,7 @@ brew "node"
 #
 
 #brew "fd" # Better "find"
-#brew "ffmpeg" # Media conversion
+brew "ffmpeg" # Media conversion
 #brew "htop" # Improved top
 brew "gh" # GitHub CLI
 brew "jq" # JSON processor
