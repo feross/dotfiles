@@ -94,7 +94,7 @@ cask "google-drive"
 cask "hex-fiend"
 cask "imageoptim"
 cask "istat-menus"
-cask "linear-linear"
+cask "linear"
 cask "logi-options+"
 cask "loom"
 cask "microsoft-auto-update"
@@ -122,7 +122,7 @@ cask "soulver"
 cask "spotify"
 #cask "steam"
 cask "vlc"
-#cask "webtorrent" # No Apple Silicon
+cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
 #cask "the-unarchiver" # Adware now!
 #cask "thingsmacsandboxhelper"
