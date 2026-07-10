@@ -61,6 +61,7 @@ brew "mas" # Mac App Store CLI
 #brew "telnet" # Telnet protocol
 #brew "watch" # Executes a program periodically
 brew "wget" # GNU Wget
+brew "ykman"
 brew "yt-dlp" # YouTube downloader
 
 #cask "ngrok" # Secure tunnels to localhost
@@ -72,6 +73,7 @@ brew "yt-dlp" # YouTube downloader
 
 cask "1password"
 cask "appcleaner"
+cask "arq"
 cask "backblaze"
 #cask "beeper"
 #cask "brave-browser"
@@ -80,6 +82,7 @@ cask "backblaze"
 cask "chatgpt"
 cask "claude"
 cask "cleanshot"
+cask "cotypist"
 cask "cursor"
 #cask "db-browser-for-sqlite" # No Apple Silicon
 cask "deckset"
@@ -87,6 +90,7 @@ cask "discord"
 cask "firefox"
 #cask "firefox-nightly"
 cask "github"
+cask "gnome"
 cask "granola"
 cask "google-chrome"
 #cask "google-chrome@canary"
