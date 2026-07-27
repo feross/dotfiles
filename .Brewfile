@@ -122,7 +122,6 @@ cask "rectangle"
 #cask "sequel-ace" # MySQL viewer
 #cask "sf-symbols"
 cask "signal"
-cask "soulver"
 cask "spotify"
 #cask "steam"
 cask "vlc"
@@ -139,15 +138,22 @@ cask "zoom"
 # App Store
 #
 
+# Apple Apps
+mas "Keynote: Design Presentations", id: 361285480
+
+# Third-party Apps
+
 # mas "Affinity Designer", id: 824171162 # Manually install from Purchase History
 mas "DaisyDisk", id: 411643860
 mas "MindNode", id: 6446116532
 mas "Reeder 5", id: 1529448980
 mas "Slack for Desktop", id: 803453959
+mas "Soulver 4", id: 1508732804
 mas "Things 3", id: 904280696
 mas "WireGuard", id: 1451685025
 #mas "Xcode", id: 497799835
 mas "Telegram", id: 747648890
+mas "WhatsApp Messenger", id: 310633997
 
 #
 # Project dependencies
