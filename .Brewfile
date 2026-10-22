@@ -26,12 +26,6 @@
 #cask "font-righteous" # bitmidi.com font
 
 #
-# macOS services
-#
-
-cask "markdown-service-tools"
-
-#
 # Updated built-in system tools
 #
 
@@ -125,6 +119,7 @@ cask "rectangle"
 cask "signal"
 cask "spotify"
 #cask "steam"
+cask "tailscale-app"
 cask "vlc"
 cask "webtorrent" # No Apple Silicon
 cask "visual-studio-code"
