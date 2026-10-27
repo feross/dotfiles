@@ -8,7 +8,7 @@
 	autocrlf = input
 	excludesfile = ~/.gitignore-global
 [push]
-	default = tracking
+	default = simple
 [pull]
 	rebase = true
 [branch]
